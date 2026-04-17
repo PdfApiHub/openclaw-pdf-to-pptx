@@ -1,0 +1,18 @@
+{
+  "name": "pdf-to-pptx",
+  "version": "1.0.0",
+  "description": "Convert PDF pages into PowerPoint presentations (PPTX). Each page becomes a high-quality slide. Supports page selection, PDF-to-image conversion for slide thumbnails, and reverse PPT-to-PDF conversion. Powered by PDFAPIHub.",
+  "type": "module",
+  "main": "index.ts",
+  "keywords": ["openclaw", "pdf-to-pptx", "pdf-to-powerpoint", "presentation", "slides", "pdf-convert", "pptx", "pdfapihub", "clawhub", "ai-agent"],
+  "author": "PDFAPIHub <hello@pdfapihub.com>",
+  "license": "MIT",
+  "homepage": "https://pdfapihub.com",
+  "repository": { "type": "git", "url": "https://github.com/PdfApiHub/openclaw-pdf-to-pptx" },
+  "openclaw": {
+    "extensions": ["./index.ts"],
+    "skills": ["./skills"],
+    "compat": { "pluginApi": ">=2026.3.24-beta.2", "minGatewayVersion": "2026.3.24-beta.2" },
+    "build": { "openclawVersion": "2026.3.24-beta.2", "pluginSdkVersion": "2026.3.24-beta.2" }
+  }
+}
