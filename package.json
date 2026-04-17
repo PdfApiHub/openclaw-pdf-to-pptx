@@ -1,5 +1,5 @@
 {
-  "name": "pdf-to-pptx",
+  "name": "convert-pdf-to-pptx",
   "version": "1.0.0",
   "description": "Convert PDF pages into PowerPoint presentations (PPTX). Each page becomes a high-quality slide. Supports page selection, PDF-to-image conversion for slide thumbnails, and reverse PPT-to-PDF conversion. Powered by PDFAPIHub.",
   "type": "module",

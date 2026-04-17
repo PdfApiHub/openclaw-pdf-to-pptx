@@ -1,6 +1,6 @@
 {
-  "id": "pdf-to-pptx",
-  "name": "pdf-to-pptx",
+  "id": "convert-pdf-to-pptx",
+  "name": "convert-pdf-to-pptx",
   "displayName": "PDF to PowerPoint",
   "description": "Convert PDF pages into PowerPoint slides. Page selection, PDF-to-image thumbnails, and PPT-to-PDF reverse conversion. Powered by PDFAPIHub.",
   "version": "1.0.0",
