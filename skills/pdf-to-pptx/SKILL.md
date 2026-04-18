@@ -20,13 +20,30 @@ Convert PDF pages into PowerPoint presentations, generate slide thumbnails, and 
 
 Get your **free API key** at [https://pdfapihub.com](https://pdfapihub.com).
 
-Configure in `~/.openclaw/openclaw.json`:
+**Privacy note:** PDFs you convert are uploaded to PDFAPIHub's cloud service for rendering. Files are auto-deleted after 30 days.
+
+Configure your API key in `~/.openclaw/openclaw.json`:
 
 ```json
 {
   "plugins": {
     "entries": {
-      "pdf-to-pptx": {
+      "convert-pdf-to-pptx": {
+        "enabled": true,
+        "apiKey": "your-api-key-here"
+      }
+    }
+  }
+}
+```
+
+Or use the `env` approach (OpenClaw injects it into `config.apiKey` automatically):
+
+```json
+{
+  "plugins": {
+    "entries": {
+      "convert-pdf-to-pptx": {
         "enabled": true,
         "env": {
           "PDFAPIHUB_API_KEY": "your-api-key-here"
